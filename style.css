@@ -1,0 +1,140 @@
+@charset 'UTF-8';    /* 文字コードの指定 */
+
+@import 'https://fonts.googleapis.com/css?family=Abel';    /* Google Fonts用のCSSを読み込み */
+.text-center
+{
+    text-align: center;
+}
+.sakura
+{
+    height:500px;
+}
+.block-center,
+section .container,
+#life i
+{
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.abel,
+section h2,
+#life h3,
+#spice,
+
+.uppercase,
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+}
+img
+{
+    width:100%;
+}
+
+section
+{
+    padding: 60px 0;
+}
+section .container
+{
+    width: 90%;
+}
+section h2
+{
+    font-size: 3.2rem;
+}
+〜〜
+
+#life
+{
+    background-color: #8fdbb5;
+}
+#life .container
+{
+    display: -webkit-flex;
+    display:         flex;
+    justify-content: space-between;
+}
+#life h2
+{
+    margin-bottom: 80px;
+    color: ;
+}
+#life p
+{
+    background-color:#e6e6fa;
+    height:80%;
+    padding:15px;
+}
+#life .life-box
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-flex: 1;
+            flex: 1;
+    margin: 0px 10px;
+    padding: 10px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #ffffff;
+}
+#life h3
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom:0px;
+    background-color:#ffb6c1 
+}
+#spice
+{
+    background-color:#fffacd;
+}
+#spice .button-readmore
+{
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    width: 180px;
+    margin: auto;
+    padding: 5px 0;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+    background-color: #ff80bf;
+}
+#spice .button-readmore:hover
+{
+    background-color: #f756a6;
+}
+#spice a
+{
+    color:white;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .sakura {
+    height:250px;
+  }
+}
