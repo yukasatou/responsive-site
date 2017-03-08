@@ -7,11 +7,9 @@
 }
 
 .sakura
-{
-    background-image: url("./images/sakura.jpg");
+{   background-image: url("./images/sakura.jpg");
     height:500px;
     max-width: 100%;
-    height: auto;
     background-size: cover;
 }
 .block-center,
@@ -19,7 +17,6 @@ section .container,
 #life i
 {
     display: block;
-
     margin-right: auto;
     margin-left: auto;
 }
@@ -76,7 +73,6 @@ section h2
 #life h2
 {
     margin-bottom: 80px;
-    color: ;
 }
 #life p
 {
@@ -108,6 +104,9 @@ section h2
 #spice
 {
     background-color:#fffacd;
+    height:100px;
+    padding:20px;
+    margin-top:20px;
 }
 #spice .button-readmore
 {
@@ -142,6 +141,5 @@ section h2
   .sakura {
     height:250px;
     max-width: 100%;
-    height: auto;
   }
 }
